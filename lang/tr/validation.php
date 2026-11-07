@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'accepted' => ':attribute kabul edilmelidir.',
+    'email' => ':attribute geçerli bir e-posta adresi olmalıdır.',
+    'exists' => 'Seçilen :attribute geçersizdir.',
+    'image' => ':attribute bir görsel dosyası olmalıdır.',
+    'in' => 'Seçilen :attribute geçersizdir.',
+    'integer' => ':attribute bir tam sayı olmalıdır.',
+    'max' => [
+        'numeric' => ':attribute en fazla :max olabilir.',
+        'file' => ':attribute en fazla :max kilobayt olabilir.',
+        'string' => ':attribute en fazla :max karakter olabilir.',
+    ],
+    'min' => [
+        'numeric' => ':attribute en az :min olmalıdır.',
+        'string' => ':attribute en az :min karakter olmalıdır.',
+    ],
+    'mimes' => ':attribute yalnızca şu dosya türlerinde olabilir: :values.',
+    'numeric' => ':attribute sayısal bir değer olmalıdır.',
+    'required' => ':attribute alanı zorunludur.',
+    'string' => ':attribute metin olmalıdır.',
+    'unique' => ':attribute daha önce kaydedilmiş.',
+    'confirmed' => ':attribute tekrarı eşleşmiyor.',
+
+    'attributes' => [
+        'name' => 'Ad',
+        'full_name' => 'Ad Soyad',
+        'email' => 'E-posta adresi',
+        'phone' => 'Telefon numarası',
+        'password' => 'Şifre',
+        'city' => 'Şehir',
+        'district' => 'İlçe',
+        'address' => 'Adres',
+        'investment_budget' => 'Yatırım bütçesi',
+        'message' => 'Mesaj',
+        'kvkk_accepted' => 'KVKK aydınlatma onayı',
+        'type' => 'Bildirim türü',
+        'base_price' => 'Merkez fiyatı',
+        'custom_price' => 'Şube fiyatı',
+        'sku' => 'Ürün kodu (SKU)',
+        'category_id' => 'Kategori',
+        'table_number' => 'Masa numarası',
+    ],
+];

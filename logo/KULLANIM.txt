@@ -1,0 +1,15 @@
+SOOHOUSE COFFEE — WEB LOGO PAKETİ
+
+soohouse-logo.svg: Şeffaf arka planlı, gerçek vektör ana logo. Yazılar yollara dönüştürülmüştür; font gerektirmez. En-boy oranını koruyarak istediğiniz ölçüde kullanabilirsiniz.
+soohouse-icon.svg: Kare alanda traktör simgesi.
+PNG ana logo genişlikleri: 320, 640, 1200 ve 2400 piksel.
+Simgeler: 16, 32, 48, 180 (Apple touch), 192 ve 512 piksel.
+favicon.ico: 16/32/48 piksel katmanlar.
+
+Örnek kullanım:
+<img src="soohouse-logo.svg" alt="Soohouse Coffee" width="305" height="152" style="max-width:100%;height:auto">
+<link rel="icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="soohouse-icon-180.png">
+<link rel="manifest" href="site.webmanifest">
+
+Not: Beyaz dış zemin kaldırılmıştır. Siyah isim levhası ve levha içindeki beyaz yazılar orijinal tasarımın parçası olarak korunmuştur. SVG, 333×187 piksel kaynak görüntüden kontur çıkarılarak üretilmiştir; özgün vektör dosyası değildir ve çok küçük ayrıntılarda kaynak çözünürlüğünün sınırlarını taşır.
