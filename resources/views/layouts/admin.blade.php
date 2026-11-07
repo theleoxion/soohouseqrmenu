@@ -214,6 +214,9 @@
                         </button>
                     </form>
                 </div>
+                <div class="pt-1 text-center">
+                    <span class="text-[10px] text-cream/35 tracking-wider">Developed by <span class="text-cream/55 font-medium">Joyxen</span></span>
+                </div>
             </div>
         </aside>
 

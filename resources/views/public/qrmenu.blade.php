@@ -308,6 +308,10 @@
                     </a>
                 @endif
             </div>
+
+            <div class="mt-8 pt-6 border-t border-white/10 text-center">
+                <p class="text-[10px] text-cream/40 tracking-wide">Developed by <span class="text-cream/60 font-medium">Joyxen</span></p>
+            </div>
         </section>
     </main>
 

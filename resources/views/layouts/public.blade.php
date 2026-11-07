@@ -327,7 +327,11 @@
             </div>
 
             <div class="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-cream/50">
-                <p>© {{ date('Y') }} {{ $brandName }}. Tüm hakları saklıdır.</p>
+                <div class="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 text-center sm:text-left">
+                    <p>© {{ date('Y') }} {{ $brandName }}. Tüm hakları saklıdır.</p>
+                    <span class="hidden sm:inline text-white/20">|</span>
+                    <span class="text-[11px] text-cream/40">Developed by <span class="text-cream/60 font-medium">Joyxen</span></span>
+                </div>
                 <div class="flex items-center gap-6">
                     <a href="{{ route('public.branches') }}" class="hover:text-cream transition">Dijital QR Menü</a>
                     <a href="{{ route('seo.sitemap') }}" class="hover:text-cream transition">Site Haritası</a>

@@ -63,8 +63,9 @@
             </form>
         </div>
 
-        <div class="text-center">
+        <div class="text-center space-y-2">
             <a href="{{ route('public.home') }}" class="text-xs text-cream/60 hover:text-white transition">← Kurumsal Web Sitesine Dön</a>
+            <p class="text-[10px] text-cream/35">Developed by <span class="text-cream/55 font-medium">Joyxen</span></p>
         </div>
     </div>
 </body>
